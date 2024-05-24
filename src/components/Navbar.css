@@ -1,0 +1,54 @@
+/* Navbar.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: relative;
+    height: 70%;
+    width: 100%;
+  }
+  
+  .background__Image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .background__Image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+  
+  .left__Menu,
+  .right__Menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .left__Menu li,
+  .right__Menu li {
+    cursor: pointer;
+  }
+  
